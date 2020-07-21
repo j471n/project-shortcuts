@@ -1,0 +1,154 @@
+/*body hover*/
+
+body {
+    background-color: #2b2929;
+}
+
+
+/*main headin "shoctcut" css and hover*/
+
+.title,
+.title::before {
+    text-align: center;
+    margin-bottom: 10px;
+    color: white;
+    background-color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    transition: ease 0.5s;
+}
+
+.title:hover {
+    color: black;
+    background-color: white;
+}
+
+
+/*heading css*/
+
+h1 {
+    margin: 0px;
+}
+
+
+/*image width and heigh*/
+
+img {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+
+/*main icons css and hover from here to end*/
+
+.icon {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: 0.5s ease;
+    float: left;
+}
+
+.gmail:hover,
+.gmail::after {
+    background-color: #B43825;
+    transform: scale(1.02);
+}
+
+.youtube:hover,
+.linkedin:hover,
+.hotstar:hover {
+    background-color: black;
+    transform: scale(1.02);
+}
+
+.instagram:hover {
+    transform: scale(1.02);
+    background-color: #FBBEBF;
+}
+
+.telegram:hover,
+.twitter:hover,
+.facebook:hover,
+.onedrive:hover {
+    background-color: skyblue;
+}
+
+.quora:hover,
+.toi:hover {
+    background-color: #fb8d8d;
+}
+
+.stackoverflow:hover {
+    background-color: rgb(206, 111, 45);
+}
+
+.github:hover {
+    background-color: #33e978;
+}
+
+.dashlane:hover {
+    background-color: #0b6876;
+}
+
+.discord:hover {
+    background-color: #8C9EFF;
+}
+
+.mega:hover {
+    background-color: #f17566;
+}
+
+.drive:hover {
+    background-image: linear-gradient(120deg, #0D9661, #F2BA42, #3078DE);
+}
+
+.evernote:hover {
+    background-color: #15913B;
+}
+
+.keep:hover {
+    background-color: #FCD462;
+}
+
+.pinterest:hover {
+    background-color: #CB1F26;
+}
+
+.gaana:hover {
+    background-color: #FE9F01;
+}
+
+.cricbuzz:hover {
+    background-color: black;
+}
+
+.imdb:hover {
+    background-color: #FBBF14;
+}
+
+.amazon:hover {
+    background-color: #F2941B;
+}
+
+.flipkart:hover {
+    background-color: #FDDE37;
+}
+
+.wikipedia:hover {
+    background-color: grey;
+}
+
+.indeed:hover {
+    background-color: #2164F3;
+}

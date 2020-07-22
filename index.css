@@ -80,7 +80,8 @@ img {
 .twitter:hover,
 .facebook:hover,
 .onedrive:hover,
-.docs:hover {
+.docs:hover,
+.dropbox:hover {
     background-color: skyblue;
 }
 
@@ -184,4 +185,8 @@ img {
 
 .primevideo:hover {
     background-image: linear-gradient(75deg, black, #009FD6);
+}
+
+.sheets:hover {
+    background-color: #77c67a;
 }

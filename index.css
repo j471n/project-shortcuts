@@ -71,7 +71,8 @@ img {
 .swiggy:hover,
 .cricbuzz:hover,
 .yatra:hover,
-.microsoft:hover {
+.microsoft:hover,
+.apple:hover {
     background-color: black;
 }
 

@@ -168,9 +168,16 @@ img {
 
 .olacabs:hover {
     background-color: #d6df24;
-    border-radius: 100%;
 }
 
 .olacabs>img {
     border-radius: 1000%;
+}
+
+.zomato>img {
+    border-radius: 100%;
+}
+
+.zomato:hover {
+    background-color: #DC3542;
 }

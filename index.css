@@ -62,18 +62,17 @@ img {
 .gmail:hover,
 .gmail::after {
     background-color: #B43825;
-    transform: scale(1.02);
 }
 
 .youtube:hover,
 .linkedin:hover,
-.hotstar:hover {
+.hotstar:hover,
+.netflix:hover,
+.swiggy:hover {
     background-color: black;
-    transform: scale(1.02);
 }
 
 .instagram:hover {
-    transform: scale(1.02);
     background-color: #FBBEBF;
 }
 
@@ -180,8 +179,4 @@ img {
 
 .zomato:hover {
     background-color: #DC3542;
-}
-
-.swiggy:hover {
-    background-color: black;
 }

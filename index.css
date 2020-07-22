@@ -198,3 +198,11 @@ img {
 .speedtest:hover {
     background-color: #7e81b9;
 }
+
+.yatra>img {
+    border-radius: 100%;
+}
+
+.yatra:hover {
+    background-color: black;
+}

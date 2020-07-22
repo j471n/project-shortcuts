@@ -68,7 +68,10 @@ img {
 .linkedin:hover,
 .hotstar:hover,
 .netflix:hover,
-.swiggy:hover {
+.swiggy:hover,
+.cricbuzz:hover,
+.yatra:hover,
+.microsoft:hover {
     background-color: black;
 }
 
@@ -129,10 +132,6 @@ img {
 
 .gaana:hover {
     background-color: #FE9F01;
-}
-
-.cricbuzz:hover {
-    background-color: black;
 }
 
 .imdb:hover {

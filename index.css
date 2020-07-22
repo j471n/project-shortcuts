@@ -79,7 +79,8 @@ img {
 .telegram:hover,
 .twitter:hover,
 .facebook:hover,
-.onedrive:hover {
+.onedrive:hover,
+.docs:hover {
     background-color: skyblue;
 }
 

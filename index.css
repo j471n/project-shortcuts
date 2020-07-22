@@ -199,3 +199,11 @@
     .snapchat:hover {
         background-color: yellow;
     }
+    
+    .ixigo>img {
+        border-radius: 100%;
+    }
+    
+    .ixigo:hover {
+        background-color: #1656BA;
+    }

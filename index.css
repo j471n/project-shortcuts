@@ -1,204 +1,200 @@
-/*body hover*/
-
-body {
-    background-color: #2b2929;
-}
-
-
-/*main headin "shoctcut" css and hover*/
-
-.title,
-.title::before {
-    text-align: center;
-    margin-bottom: 10px;
-    color: white;
-    background-color: black;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    width: 100%;
-    height: 50px;
-    cursor: pointer;
-    transition: ease 0.5s;
-}
-
-.title:hover {
-    color: black;
-    background-color: white;
-}
-
-
-/*heading css*/
-
-h1 {
-    margin: 0px;
-}
-
-
-/*image width and heigh*/
-
-img {
-    width: 30px;
-    height: 30px;
-    border-radius: 10px;
-}
-
-
-/*main icons css and hover from here to end*/
-
-.icon {
-    display: flex;
-    flex-wrap: wrap;
-    background-color: white;
-    margin: 10px;
-    padding: 10px;
-    width: 30px;
-    height: 30px;
-    border-radius: 100px;
-    margin-top: 10px;
-    cursor: pointer;
-    transition: 0.5s ease;
-    float: left;
-}
-
-.gmail:hover,
-.gmail::after {
-    background-color: #B43825;
-}
-
-.youtube:hover,
-.linkedin:hover,
-.hotstar:hover,
-.netflix:hover,
-.swiggy:hover,
-.cricbuzz:hover,
-.yatra:hover,
-.microsoft:hover,
-.apple:hover {
-    background-color: black;
-}
-
-.instagram:hover {
-    background-color: #FBBEBF;
-}
-
-.telegram:hover,
-.twitter:hover,
-.facebook:hover,
-.onedrive:hover,
-.docs:hover,
-.dropbox:hover {
-    background-color: skyblue;
-}
-
-.quora:hover,
-.toi:hover {
-    background-color: #fb8d8d;
-}
-
-.stackoverflow:hover {
-    background-color: rgb(206, 111, 45);
-}
-
-.github:hover,
-.uber:hover {
-    background-color: #33e978;
-}
-
-.dashlane:hover {
-    background-color: #0b6876;
-}
-
-.discord:hover {
-    background-color: #8C9EFF;
-}
-
-.mega:hover {
-    background-color: #f17566;
-}
-
-.drive:hover {
-    background-image: linear-gradient(120deg, #0D9661, #F2BA42, #3078DE);
-}
-
-.evernote:hover {
-    background-color: #15913B;
-}
-
-.keep:hover {
-    background-color: #FCD462;
-}
-
-.pinterest:hover {
-    background-color: #CB1F26;
-}
-
-.gaana:hover {
-    background-color: #FE9F01;
-}
-
-.imdb:hover {
-    background-color: #FBBF14;
-}
-
-.amazon:hover {
-    background-color: #F2941B;
-}
-
-.flipkart:hover {
-    background-color: #FDDE37;
-}
-
-.wikipedia:hover {
-    background-color: grey;
-}
-
-.indeed:hover {
-    background-color: #2164F3;
-}
-
-.whatsapp:hover {
-    background-color: #25D366;
-}
-
-.maps:hover {
-    background-color: #D24637;
-}
-
-.udemy:hover {
-    background-color: #263143;
-}
-
-.olacabs:hover {
-    background-color: #d6df24;
-}
-
-.olacabs>img {
-    border-radius: 1000%;
-}
-
-.zomato>img {
-    border-radius: 100%;
-}
-
-.zomato:hover {
-    background-color: #DC3542;
-}
-
-.primevideo:hover {
-    background-image: linear-gradient(75deg, black, #009FD6);
-}
-
-.sheets:hover {
-    background-color: #77c67a;
-}
-
-.spotify:hover {
-    background-color: #1DD15D;
-}
-
-.speedtest:hover {
-    background-color: #7e81b9;
-}
-
-.yatra>img {
-    border-radius: 100%;
-}
+    /*body hover*/
+    
+    body {
+        background-color: #2b2929;
+    }
+    /*main headin "shoctcut" css and hover*/
+    
+    .title,
+    .title::before {
+        text-align: center;
+        margin-bottom: 10px;
+        color: white;
+        background-color: black;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        width: 100%;
+        height: 50px;
+        cursor: pointer;
+        transition: ease 0.5s;
+    }
+    
+    .title:hover {
+        color: black;
+        background-color: white;
+    }
+    /*heading css*/
+    
+    h1 {
+        margin: 0px;
+    }
+    /*image width and heigh*/
+    
+    img {
+        width: 30px;
+        height: 30px;
+        border-radius: 10px;
+    }
+    /*main icons css and hover from here to end*/
+    
+    .icon {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: white;
+        margin: 10px;
+        padding: 10px;
+        width: 30px;
+        height: 30px;
+        border-radius: 100px;
+        margin-top: 10px;
+        cursor: pointer;
+        transition: 0.5s ease;
+        float: left;
+    }
+    
+    .gmail:hover,
+    .gmail::after {
+        background-color: #B43825;
+    }
+    
+    .youtube:hover,
+    .linkedin:hover,
+    .hotstar:hover,
+    .netflix:hover,
+    .swiggy:hover,
+    .cricbuzz:hover,
+    .yatra:hover,
+    .microsoft:hover,
+    .apple:hover {
+        background-color: black;
+    }
+    
+    .instagram:hover {
+        background-color: #FBBEBF;
+    }
+    
+    .telegram:hover,
+    .twitter:hover,
+    .facebook:hover,
+    .onedrive:hover,
+    .docs:hover,
+    .dropbox:hover {
+        background-color: skyblue;
+    }
+    
+    .quora:hover,
+    .toi:hover {
+        background-color: #fb8d8d;
+    }
+    
+    .stackoverflow:hover {
+        background-color: rgb(206, 111, 45);
+    }
+    
+    .github:hover,
+    .uber:hover {
+        background-color: #33e978;
+    }
+    
+    .dashlane:hover {
+        background-color: #0b6876;
+    }
+    
+    .discord:hover {
+        background-color: #8C9EFF;
+    }
+    
+    .mega:hover {
+        background-color: #f17566;
+    }
+    
+    .drive:hover {
+        background-image: linear-gradient(120deg, #0D9661, #F2BA42, #3078DE);
+    }
+    
+    .evernote:hover {
+        background-color: #15913B;
+    }
+    
+    .keep:hover {
+        background-color: #FCD462;
+    }
+    
+    .pinterest:hover {
+        background-color: #CB1F26;
+    }
+    
+    .gaana:hover {
+        background-color: #FE9F01;
+    }
+    
+    .imdb:hover {
+        background-color: #FBBF14;
+    }
+    
+    .amazon:hover {
+        background-color: #F2941B;
+    }
+    
+    .flipkart:hover {
+        background-color: #FDDE37;
+    }
+    
+    .wikipedia:hover {
+        background-color: grey;
+    }
+    
+    .indeed:hover {
+        background-color: #2164F3;
+    }
+    
+    .whatsapp:hover {
+        background-color: #25D366;
+    }
+    
+    .maps:hover {
+        background-color: #D24637;
+    }
+    
+    .udemy:hover {
+        background-color: #263143;
+    }
+    
+    .olacabs:hover {
+        background-color: #d6df24;
+    }
+    
+    .olacabs>img {
+        border-radius: 1000%;
+    }
+    
+    .zomato>img {
+        border-radius: 100%;
+    }
+    
+    .zomato:hover {
+        background-color: #DC3542;
+    }
+    
+    .primevideo:hover {
+        background-image: linear-gradient(75deg, black, #009FD6);
+    }
+    
+    .sheets:hover {
+        background-color: #77c67a;
+    }
+    
+    .spotify:hover {
+        background-color: #1DD15D;
+    }
+    
+    .speedtest:hover {
+        background-color: #7e81b9;
+    }
+    
+    .yatra>img {
+        border-radius: 100%;
+    }
+    
+    .snapchat:hover {
+        background-color: yellow;
+    }

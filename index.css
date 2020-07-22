@@ -77,7 +77,8 @@
     .facebook:hover,
     .onedrive:hover,
     .docs:hover,
-    .dropbox:hover {
+    .dropbox:hover,
+    .indeed:hover {
         background-color: skyblue;
     }
     
@@ -143,8 +144,8 @@
         background-color: grey;
     }
     
-    .indeed:hover {
-        background-color: #2164F3;
+    .indeed>img {
+        border-radius: 100%;
     }
     
     .whatsapp:hover {

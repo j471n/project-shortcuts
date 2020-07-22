@@ -64,7 +64,8 @@
     .cricbuzz:hover,
     .yatra:hover,
     .microsoft:hover,
-    .apple:hover {
+    .apple:hover,
+    .directlinks:hover {
         background-color: black;
     }
     
@@ -206,4 +207,8 @@
     
     .ixigo:hover {
         background-color: #1656BA;
+    }
+    
+    .directlinks>img {
+        border-radius: 100%;
     }

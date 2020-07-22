@@ -165,3 +165,12 @@ img {
 .udemy:hover {
     background-color: #263143;
 }
+
+.olacabs:hover {
+    background-color: #d6df24;
+    border-radius: 100%;
+}
+
+.olacabs>img {
+    border-radius: 1000%;
+}
